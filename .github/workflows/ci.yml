@@ -29,3 +29,6 @@ jobs:
 
       - name: Build application
         run: ./gradlew clean build
+
+      - name: Build Docker image
+        run: docker build -t bayars-backend .
