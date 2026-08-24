@@ -59,7 +59,7 @@ public class PdfService {
         );
 
         Paragraph title = new Paragraph(
-                "BAYARS",
+                "BILL",
                 titleFont
         );
 
@@ -68,7 +68,7 @@ public class PdfService {
         document.add(title);
 
         Paragraph subtitle = new Paragraph(
-                "Food Products",
+                "Wholesale & Retail",
                 new Font(Font.HELVETICA, 10)
         );
 
